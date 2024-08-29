@@ -1,0 +1,294 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+
+*{margin:0; padding:0;}
+
+body{
+	background-color: #009929;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+}
+
+p{
+	text-align: justify;
+	font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+
+}
+}
+
+header nav ul li a {
+    margin-left: 20px; 
+    font-size: 30px;
+    color: #003785;
+
+}
+
+
+figcaption {
+	text-align: center;
+	font-size: roboto;
+	font-size: 30px;
+}
+
+.cabecalho {
+	justify-content: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFFAFA;
+}
+
+img{
+	width: 100%;
+	height: 100%px;
+}
+
+
+
+.carrossel {
+    position: relative;
+    max-width: 1000px;
+    height: 500px auto;
+    margin: 50px auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fotos {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 12,5%;
+    height: 100%;
+    
+}
+.foto {
+	width: 12,5%;
+	
+
+}
+
+.foto img{
+	
+	height: 100%;
+	object-fit: cover;
+	vertical-align: middle;
+	border: 5px solid #003785; 
+    border-radius: 15px; 
+    margin-bottom: 20px;
+}
+
+.divider {
+	border-top: 2px #000000;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.controls {
+	position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+/*.control {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 30px;}
+
+ .controls .control: hover{
+ 	background-color: rgba (0,0,0,0, 0.8);
+ }
+
+
+#airgame:checked ~ .fotos {
+    transform: translateX(0%);
+}
+
+#alpinismo:checked ~ .fotos {
+    transform: translateX(-4.1667%);
+}
+
+#bolao:checked ~ .fotos {
+    transform: translateX(-8.3334%);
+}
+#camaelastica:checked ~ .fotos {
+    transform: translateX(-12.5001%);
+}
+
+#casteloinflavel:checked ~ .fotos {
+    transform: translateX(-16.6668%);
+}
+
+#chuteaogol:checked ~ .fotos {
+    transform: translateX(-20.8335%);
+}
+#fliperama:checked ~ .fotos {
+    transform: translateX(-25.0002%);
+}
+
+#futebolsabao:checked ~ .fotos {
+    transform: translateX(-29.1669%);
+}
+
+#guerradecontonete:checked ~ .fotos {
+    transform: translateX(-33.3336%);
+}
+#jogoargola:checked ~ .fotos {
+    transform: translateX(-37.5003%);
+}
+
+#kidplaypiupiu:checked ~ .fotos {
+    transform: translateX(-41.667%);
+}
+
+#minikidplay:checked ~ .fotos {
+    transform: translateX(-45.8337%);
+}
+#minisinuca:checked ~ .fotos {
+    transform: translateX(-50.0004%);
+}
+
+#minitobogajacare:checked ~ .fotos {
+    transform: translateX(-54.1671%);
+}
+
+#mulplaytigrinho:checked ~ .fotos {
+    transform: translateX(-58.3338%);
+}
+#pingpong:checked ~ .fotos {
+    transform: translateX(-62.5005%);
+}
+
+#piscinabolinhasleao:checked ~ .fotos {
+    transform: translateX(-66.6672%);
+}
+
+#piscinabolinhatradicional:checked ~ .fotos {
+    transform: translateX(-70.8339%);
+}
+#pulapula:checked ~ .fotos {
+    transform: translateX(-75.0006%);
+}
+
+#tamancobol:checked ~ .fotos {
+    transform: translateX(-79.1673%);
+}
+
+#toboagua:checked ~ .fotos {
+    transform: translateX(-83.334%);
+}
+#tobogapiscinabolinha:checked ~ .fotos {
+    transform: translateX(-87.5007%);
+}
+
+#tobogapremium:checked ~ .fotos{
+    transform: translateX(-91.6674%);
+}
+
+#tombolegal:checked ~ .fotos {
+    transform: translateX(-95.8341%);
+}
+#toto:checked ~ .fotos {
+    transform: translateX(-100%);
+}*/
+ 
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #003785;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #003785;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #003785; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto no rodapé */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+.footer-content {
+    max-width: 1200px; /* Largura máxima do conteúdo do rodapé */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+.footer-content p {
+    margin: 10px 0; /* Margem superior e inferior */
+}
+
+.social-links {
+    list-style-type: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove o padding */
+}
+
+.social-links li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+.social-links li a {
+    color: black; /* Cor dos links no rodapé */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 30px; /* Tamanho do texto e ícones */
+}
+
+.social-links li a:hover {
+    color: #009929; /* Muda a cor ao passar o mouse */
+}
+
+.social-links li i {
+    margin-right: 5px;
+
+}
+
+.social-links p {
+	text-align: center;
+	margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.whatsapp-icone {
+    width: 50px; 
+    height: 30PX; 
+    padding: 10px;
+}
+
+.insta {
+    width: 50px; 
+    height: 30PX; 
+    padding: 10px;
+}
